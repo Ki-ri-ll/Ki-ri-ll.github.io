@@ -259,7 +259,7 @@ a {
 	text-align: center;
 	background-color: #ffffff;
 	margin-right: -4px;
-	padding: 0px 50px 100px 50px;
+	padding: 0px 50px 99px 50px;
 	transition-property: z-index;
 }
 
@@ -354,7 +354,7 @@ a {
 }
 
 .main-about__product {
-	margin-top: -3px;
+	margin-top: -4px;
 }
 
 .product-pic {
@@ -761,7 +761,7 @@ footer {
 	position: relative;
 	height: 100%;
 	width: 100%;
-	background: linear-gradient( -4.8deg, #0d1119 42.8%, transparent 42.2%);
+	background: linear-gradient( -4.8deg, #0d1119 42.8%, transparent 43.6%);
 }
 
 .footer-decor {
@@ -774,7 +774,7 @@ footer {
 .decor-red {
 	height: 100%;
 	width: 100%;
-	background: linear-gradient( 181.6deg, #0d1119 73.2%, transparent 69.2%);
+	background: linear-gradient( 181.6deg, #0d1119 73.2%, transparent 74.2%);
 }
 
 .footer-conteiner {
