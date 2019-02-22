@@ -1,0 +1,526 @@
+  * {
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    padding: 0px;
+    margin: 0px;
+    font-family: helvetica, arial, sans-serif;
+  }
+  
+  h2 {
+    font-family: Kaushan Script,sans-serif;
+  }
+  
+  .banner {
+    background-image: url(http://u.cubeupload.com/Gaucho/banner.jpg);
+  }
+  
+  .banner--conteiner {
+    max-width: 1200px;
+    margin: 0 auto 0;
+    text-align: center;  
+  }
+  
+  .header {
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: f38181;
+  }
+  
+  .nav-conteiner {
+    max-width: 1200px;
+    text-align: justify;
+    margin: 0 auto 0;
+  }
+  
+  .nav-conteiner::after {
+      content: '';
+      display: inline-block;
+      width: 100%;
+  }
+  
+  .logo {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 27px 10px;
+  }
+  
+  .menu {
+    display: inline-block;
+    width: 80%;
+    vertical-align: middle;
+    margin: 0px;
+    text-align: right;
+    padding: 5px 0px 0px 0px;
+  }
+  
+  .nav--bar li {
+    display: inline-block;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-right: 46px;
+    vertical-align: middle;
+  }
+  
+  .nav--bar li a:hover {
+    color: #fce38a;
+    border-bottom: 3px solid #fce38a;
+  }
+  
+  .nav--bar li:last-child {
+    margin-right: 0px;
+  }
+  
+  .fa {
+    font-size: 18px;
+  }
+  
+  .nav--bar a {
+    color: #fff;
+  }
+  
+  .banner--main h1 {
+    font-family: Kaushan Script,sans-serif;
+    font-weight: normal;
+    font-size: 3.8vw;
+    margin: 110px 0px 0px 0px;
+    color: #fff;
+    padding: 0px 15px 0px 30px;
+  }
+  
+  .banner--main p {
+    font-family: Montserrat,sans-serif;
+    font-size: 8vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px;
+    color: #fff;
+    padding: 18px 25px 50px 40px;
+    line-height: 1em;
+  }
+  
+  .banner--welcome:after {
+      content: '';
+      display: block;
+      margin: 25px auto;
+      width: 55px;
+      border-bottom: 3px solid #fff;
+  }
+  
+  .banner--main a {
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 10px 30px;
+    margin-left: 15px;
+  }
+  
+  .slider {
+    max-width: 100%;
+    margin: 160px 0px 0px 0px;
+    padding-bottom: 10px; 
+  }
+  
+  .slider ol {
+    padding-left: 10px;
+  }
+  
+  .slider li {
+    display: inline-block;
+    width: 23%;
+    vertical-align: bottom;
+    margin-right: 27px;
+    border-top: 3px solid #fff;
+    text-align: left;
+    padding-top: 20px;
+  }
+  
+  .slider li:last-child {
+  margin-right: 0px;}
+  
+  .slider  p {
+    display: inline;
+    font-family: Montserrat,sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  
+  .slider--numbers {
+    font-size: 24px;
+  }
+  
+  .slider--words {
+    font-size: 16px;
+  }
+  
+  .center {
+    max-width: 1200px;
+    margin: 90px auto 0px;
+    text-align: center;  
+  }
+  
+  .center h2 {
+    padding: 0px 0px 0px 15px;
+    margin-bottom: 0px;
+  }
+  
+   .center h3 {
+    font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 5px 0px 5px 11px;
+    margin-top: 5px; 
+  }
+  
+  .header--about:after { 
+      content: " ";
+      padding-top: 6vmin;
+      width: 60px;
+      border-bottom: 3px solid #f38181;
+      display: block;
+      margin: 0 auto;
+  }
+  .center p {
+    font-family: Roboto,sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 50px;
+  }
+  
+  .pics {
+    margin: 100px 0px 100px 0px;
+  }
+  
+  .pics div {
+    display: inline-block;
+  }
+  
+  .statistics {
+    background-image: url(http://u.cubeupload.com/Gaucho/pic1min.jpg);
+  }
+  
+  .center--stat {
+    max-width: 1200px;
+    margin: 0px auto 0px;
+    text-align: center;
+  }
+  
+  .center--stat ul {
+    padding: 0px 25px;
+  }
+  
+  .center--stat li {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    margin-right: -4px;  
+  }
+  
+  .center--stat li:first-child {
+    border:  1px solid #b5eae0;
+  }
+  
+  .center--stat li:nth-child(n+2) {
+    border-right: 1px solid #b5eae0;
+  }
+  
+  .center--stat p {
+    font-family: Montserrat,sans-serif;
+    
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .stat--numbers {
+    font-size: 72px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .stat--words {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 70px;
+  }
+  
+  .conteiner {
+    max-width: 1200px;
+    margin: 0px auto 0px;
+    text-align: center;
+  }
+  
+  .services--header:after {
+    content: " ";
+      padding-top: 5vmin;
+      width: 60px;
+      border-bottom: 3px solid #f38181;
+      display: block;
+      margin: 0 auto;
+  }
+  
+  .text h2 {
+    margin: 100px 0px 10px 10px;
+  }
+  
+  .text h3 {
+    font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0;
+  }
+  
+  .features .wrapper {
+    display: inline-block;
+    width: 33.3333%;
+    vertical-align: top;
+    margin-right: -4px;
+    margin-top: 65px;
+    padding-left: 20px;
+  }
+  
+  .wrapper div {
+    display: inline-block;
+    margin-right: -3px;
+    margin-bottom: 5px;
+  }
+  
+  .srv--pic {
+    text-align: left;
+    width: 15%;
+    margin: 0px;
+  }
+  
+  .srv--txt  {
+    width: 75%;
+    vertical-align: top;
+    text-align: left;
+  }
+  
+  .srv--txt h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  .srv--txt p {
+    font-family: Roboto,sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999;
+  }
+  
+  footer {
+    background-color: #f8f8f8;
+  }
+  
+  .footer--conteiner {
+    max-width: 1200px;
+    margin: 70px auto 0px;
+    text-align: center;
+  }
+  
+  .contacts {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+    padding-right: 40px;
+  }
+  
+  .description h3 {
+    font-family: Montserrat,sans-serif;
+    font-size: 46px;
+    font-weight: 800;
+    text-align: left;
+    color: #ccc;
+    margin-bottom: 30px;
+  }
+  
+  .description p {
+    font-family: Roboto,sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    color: #999;
+  }
+  
+  .followers {
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 25px;
+    padding-left: 10px;
+  }
+  
+  .followers .counter,.text {
+    display: inline-block;
+    font-family: Montserrat,sans-serif;
+    margin-bottom: 5px;
+  }
+  
+  .counter {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .followers .text {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .follow-us {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    
+  }
+  
+  .follow-us i {
+    color: #63e2d3;
+    margin-right: 10px;
+  }
+  
+  .subscribe {
+    text-align: left;
+    margin-top: 12px;
+  }
+  
+  .email--input {  
+    width: 50%;
+    height: 40px;
+    padding: 8px;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+  }
+  
+  .email--btn {
+    margin-left: -4px;
+    height: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 35%;
+    background-color: #63e2d3;
+    border: 1px solid #63e2d3;
+    font-family: Montserrat,sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .blogs {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    overflow: hidden;
+    padding-left: 35px;
+  }
+  
+  .blogs .bl-hd {
+    margin: 50px 0px;
+  }
+  
+  .blogs h5 {
+    font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0px;
+    padding-top: 15px;
+    vertical-align: middle;
+  }
+  
+  .blogs p {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    text-align: left;
+    margin: 0px 0px 25px;
+  }
+  
+  .blogs img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .blogs a {
+    font-size: 12px;
+    color: #000;
+    vertical-align: middle;
+  }
+  
+  
+  .instagram {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    padding: 0px 45px;
+  }
+  
+  .instagram--pic {
+    display: inline-block;
+    width: 33.3333%;
+    margin-right: -4px;
+    padding: 0px 45px;
+  }
+  .instagram h5 {
+    font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 50px 0px 40px 0px;
+    padding-top: 15px;
+    padding-left: 50px;
+  }
+  
+  .instagram p {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    text-align: left;
+    margin-top: 5px;
+    padding-left: 50px;
+  }
+  
+  .instagram a {
+    color: #333;
+  }
+  
+  .copyright {
+    margin-top: 50px;
+    border-top: 1px solid #eee;
+    font-family: Montserrat, sans-serif;
+    color: #000;
+    font-size:14px;
+    font-weight: 600;
+    padding-top: 10px;
+  }
+  
+  .copyright a {
+    color: #f38181;
+  }
+  
+  .footer--conteiner .contacts,.blogs,.instagram {
+    margin-right: -3px;
+    vertical-align: top;
+    text-align: center;
+  }
