@@ -1,0 +1,712 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	transition: .5s ease-in-out;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+body {
+	font-family: 'Roboto', arial, sans-serif;
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	min-width: 320px;
+	color: #504D4D;
+	background: #f7f7f7;
+}
+
+h2 {
+	font-size: 1.6111em;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 1.2777em;
+	font-weight: 500;
+}
+
+h4 {
+	font-weight: 500;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header--top .container {
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.header--top__menu {
+	background-color: #E97C2E;
+}
+
+.top--menu__list {
+	width: 100%;
+  padding: 0 7.222em;	
+}
+
+.top--menu__list ul {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 1.25rem;
+	padding-bottom: 1.25rem;
+}
+
+.top--menu__list a {
+	font-size: 1em;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.top--menu__list li a:hover {
+	color: #504D4D;
+	transition: 0.5s;
+}
+
+.category-wrap {
+	display: none;
+}
+
+.banner--top .container {
+	background-image: url("../img/Banner top-min.jpg");
+	background-size: cover;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.logo--top {
+	padding-top: 3.75rem;
+	padding-bottom: 0.8rem; 
+}
+
+.danner--top__text {
+	text-align: center;
+	color: #ffffff;
+}
+
+.danner--top__text h1 {
+	font-size: 2.555em;
+	font-weight: normal;
+	text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.danner--top__text p {
+	font-size: 1.333em;
+	font-weight: normal;
+	line-height: 1.3em;
+	padding: 1.25em 5.4166em 3.3333em 5.4166em;
+	text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.info .container {
+	background-image: url("../img/Product-banner-min.jpg");
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.info--icon {
+	padding: 3.333em 0 3.3333em 4.4444em;
+}
+
+.info--txt {
+	font-size: 1.333em;
+	font-weight: normal;
+	line-height: 1.6666em;
+	color: #ffffff;
+	padding: 2.5em 3.3333em 2.5em 1.6666em;
+}
+
+.training--program .container {
+	background-image: url("../img/caver-min.png");
+}
+
+.program--title {
+	padding-top: 4.4444em;
+	padding-bottom: 1.1111em;
+}
+
+.card {
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	border-radius: 20px;
+	margin-top: 1.1111em ;
+	margin-bottom: 0.5555em;
+	max-width: 44.2222em;
+}
+
+.card .icon {
+	padding: 2.2222em 0.8333em 0 2.2222em;
+}
+
+.card h3 {
+	padding-bottom: 0.5555em;
+}
+
+.description {
+	padding: 2.2222em 1.1111em 2.2222em 0.8333em;
+}
+
+.description p {
+	font-size: 1em;
+}
+
+.description p > span {
+	color: black;
+	font-weight: 500;
+}
+
+.card .price {
+	padding: 2.2222em 2.2222em 0 1.1111em;
+
+}
+
+.price p {
+	font-size: 2.2222em;
+	font-weight: 500;
+	padding-left: 2rem;
+}
+
+.price button {
+	width: 9.375rem;
+	background: #E97C2E;
+	font-family: 'Roboto', arial, sans-serif;
+	font-size: 1.125rem;
+	padding: 0.40625rem 1.5625rem;
+	margin-top: 2.7777em;
+	color: #fff;
+	border-radius: 3px;
+	border-width: 0;
+	cursor: pointer;
+}
+
+
+.add--info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.add--info__title {
+	padding-top: 3.8888em;
+	padding-bottom: 1.1111em;
+}
+
+.add--info__title h3 {
+	font-size: 1.3333em;
+	font-weight: normal;
+}
+
+.add--info__content {
+	display: flex;
+	flex-flow: row wrap;
+	padding-top: 1.1111em;
+	padding-bottom: 2.2222em;
+	padding-right: 4.4444em;
+	padding-left: 4.4444em;
+}
+
+.col-1 {
+	flex-basis: 50%;
+	padding-right: 0.8em;
+	padding-left: 1em;
+}
+
+.col-2 {
+	flex-basis: 50%;
+	padding-right: 1em;
+}
+.add--info__content p {
+	font-size: 1em;
+}
+
+.validity {
+	padding-left: 1.3em;
+	padding-bottom: 1.6666em;
+}
+
+.certificate {
+	padding-left: 1.3em;
+}
+
+.webinar {
+	padding-left: 1.3em;
+}
+
+.add--info__content p {
+	background: url("../img/Ellipse-min.png") no-repeat 0px 4px;
+}
+
+.feedback {
+	display: none;
+}
+
+.form-wrap {
+	padding: 25px;
+	background-color: #E97C2E;
+	max-width: 300px;
+	margin: auto;
+	position: relative;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.popup-row {
+	margin-bottom: 15px;
+}
+
+.popup input, .popup textarea {
+	display: block;
+	width: 100%;
+	color: #6b6b6b;
+	border: 1px solid #e4e4e4;
+	font-family: 'Roboto', arial, sans-serif;
+	font-size: 1em;
+	border-radius: 5px;
+	padding: 0.3333em 0.2222em;
+}
+
+.popup button {
+	background: #ffffff;
+	font-family: 'Roboto', arial, sans-serif;
+	font-size: 1em;
+	padding: 0.3611em 1.3888em;
+	color: #E97C2E;
+	border-radius: 3px;
+	border-width: 0;
+	cursor: pointer;
+}
+
+
+.advantages .container {
+	background-color: #fff;
+}
+
+.advantages--title {
+	padding-top: 4.4444em;
+	padding-bottom: 1.3888em;
+}
+
+.all--advantages {
+	display: flex;
+	flex-flow: row nowrap;
+	padding: 1.3888em 4.4444em 2.2222em 4.4444em;
+}
+
+.all--advantages div {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	text-align: center;
+}
+
+
+.all--advantages img {
+	padding-top: 1.3888em;
+	padding-bottom: 1.1111em;
+}
+
+.all--advantages h4 {
+	padding-top: 1.1111em;
+	padding-bottom: 0.8333em;
+}
+
+.all--advantages p {
+	padding-top: 0.8333em;
+}
+
+.geography p {
+	padding-top: 0;
+}
+
+.geography h4 {
+	padding-bottom: 0.5555em;
+}
+
+.payment p {
+	padding-right: 2em;
+	padding-left: 2em;
+}
+
+.documents .container {
+	background-image: url("../img/caver-min.png");
+}
+
+.dsocuments--title {
+	padding-top: 4.4444em;
+	padding-bottom: 1.1111em;
+}
+
+.documents--lists {
+	display: flex;
+	flex-flow: row nowrap;
+	padding: 1.1111em 4.444em 1.1111em 5.8em;
+}
+
+.all--doc {
+	display: flex;
+	flex-flow: column wrap;
+	text-align: left;
+}
+
+.all--doc h3 {
+	font-weight: 400;
+	padding-bottom: 0.8333em;
+}
+
+.all--doc li {
+	padding-bottom: 1em;
+	background: url("../img/Ellipse-min.png") no-repeat 0px 2px;
+	padding-left: 1.3em;
+}
+
+.you--documents {
+	padding-right: 2.7777em;
+}
+
+.legal--entities {
+	padding: 1.1111em 2.2222em 1.1111em 5.8em;
+	color: black;
+}
+
+.license {
+	background-color: #fff;
+}
+
+.license--title {
+	padding-top: 4.4444em;
+	padding-bottom: 1.1111em;
+}
+
+.license--img {
+	display: flex;
+	flex-flow: row nowrap;
+	padding: 1.1111em 4.4444em 2.2222em 4.4444em;
+}
+
+.license--img img {
+	padding-left: 1.9444em;
+	padding-right: 1.9444em;
+}
+
+.contacts--title {
+	padding-top: 4.4444em;
+	padding-bottom: 1.1111em;
+}
+
+.footer--bot {
+	background-image: url("../img/caver-min.png");
+}
+
+.contacts {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	padding: 1.1111em 4.4444em 2.2222em 4.4444em;
+}
+
+.address {
+	flex: 1 0 50%;
+}
+
+.requisites {
+	padding-left: 7.69444em;
+	flex: 0 1 auto;
+}
+
+.map {
+	width: 100%;
+}
+
+.copyright {
+	background: linear-gradient(180deg, #392138 0%, #6C5D6C 99.98%, #392138 99.99%, #C4C4C4 100%);
+	width: 100%;
+}
+
+.copyright p {
+	font-size: 0.6666em;
+	color: #ffffff;
+}
+
+@media only screen and (min-width : 1824px) {
+	body {
+		font-size: 26px;
+	}
+
+	.top--menu__list {
+    padding: 0 8.5em;
+	}
+
+	.info--icon {
+    padding: 3.333em 0 3.3333em 17.444em;
+	}
+
+	.info--icon img {
+		width: 150%;
+	}
+
+	.info--txt {
+    padding: 2.5em 4.333em 2.5em 1.6666em;
+	}
+
+	.add--info__content p {
+
+    background: url("../img/Ellipse-min.png") no-repeat 8px 8px;
+
+}
+
+	/* .add--info__content {
+    padding-right: 5.444em;
+    padding-left: 10.444em;
+	}
+
+	.col-2 {
+		padding-left: 1.444em;
+    flex-basis: 50%;
+    padding-right: 4em;
+	}
+
+	.col-1 {
+		padding-left: 1.444em;
+	} */
+
+	/* .all--advantages {
+    padding: 1.3888em 10.444em 2.2222em 10.444em;
+	} */
+
+	.geography h4 {
+    padding-bottom: 0.8333em;
+}
+
+	.all--advantages p {
+		padding-top: 0;
+	}
+
+	.all--doc li {
+    background: url("../img/Ellipse-min.png") no-repeat 9px 10px;
+	}
+
+	.license--img img {
+    padding-left: 4.944em;
+    padding-right: 4.944em;
+	}
+
+}
+
+
+@media only screen and (min-width : 1224px) and (max-device-width : 1823px) {
+	body {
+		font-size: 20px;
+	}
+
+	.all--doc li {
+		background: url("../img/Ellipse-min.png") no-repeat 0px 7px;
+	}
+
+	.validity {
+    padding-left: 1.2em;
+	}
+
+	.webinar {
+    padding-left: 1.2em;
+	}
+
+	.certificate {
+    padding-left: 1.2em;
+	}
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	body {
+		font-size: 16px;
+	}
+
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	body {
+		font-size: 12px;
+	}
+
+	.list--menu {
+		display: none;
+	}
+
+	/* .header--top .container {
+		text-align: center;
+	} */
+
+	.phone {
+		flex: 1 0 auto;
+	}
+
+	.danner--top__text p {
+		padding-right: 2.7em;
+		padding-left: 2.7em;
+	}
+	
+
+	.info .container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.info--icon {
+		padding: 0;
+		padding-top: 3.333em;
+	}
+
+	.info--icon img {
+		width: 80%;
+	}
+
+	.info--txt {
+		text-align: center;
+		padding: 2.5em 1.3em 2.5em 1.3em;
+	}
+	
+	.program--title {
+		padding: 4.4444em 0.5555em 1.1111em 0.5555em;
+		text-align: center;
+	}
+
+	.card {
+    flex-direction: column;
+    margin-left: 0.84em;
+    margin-right: 0.84em;
+    align-items: center;
+	}
+
+	.description {
+    padding: 2.2222em 1.111em 2.2222em 1.1111em;
+    text-align: center;
+	}
+
+	.card .price {
+    padding: 0;
+	}
+
+	.price p {
+    padding: 0 1.296em;
+	}
+
+	.price button {
+    margin-top: 1.1em;
+    margin-bottom: 1.1em;
+	}
+
+	.icon img {
+		width: 65%;
+	}
+
+	.add--info__content {
+    flex-flow: column wrap;
+    padding: 1.1111em;
+    text-align: center;
+	}
+
+	.validity {
+		padding: 1.3em 0.7em 1.6666em 0.7em;
+	}
+
+	.webinar {
+    padding-top: 1.3em;
+	}
+
+	.certificate {
+    padding-top: 1.3em;
+	}
+
+	.add--info__content p {
+    background: none;
+	}
+
+	.all--advantages {
+		flex-direction: column;
+		padding: 1.3888em 1.1111em 2.2222em 1.1111em;
+	}
+
+	.all--advantages p {
+		padding-bottom: 0.833em;
+	}
+
+	.all--advantages img {
+		width: 20%;
+	}
+
+	.geography h4 {
+    padding-bottom: 1.555em;
+	}
+
+	.payment p {
+    padding: 0;
+	}
+
+	.geography p {
+    padding-bottom: 2.2em;
+	}
+
+	.dsocuments--title {
+    text-align: center;
+	}
+
+	.documents--lists {
+		flex-direction: column;
+    padding: 1.1111em 1.1111em 1.1111em 1.1111em;
+	}
+
+	.all--doc li {
+    background: url("../img/Ellipse-min.png") no-repeat 0px 1px;
+    padding-left: 1.7em;
+	}
+
+	.you--documents {
+    padding-bottom: 0.8em;
+	}
+
+	.legal--entities {
+    padding: 0.8em 1.1111em 1.1111em 1.1111em;
+	}
+
+	.license--img {
+    flex-flow: column nowrap;
+	}
+
+	.contacts--title {
+    padding-top: 3.444em;
+	}
+
+	.contacts {
+    padding: 1.1111em 1.1111em 2.2222em 1.1111em;
+	}
+
+	.requisites {
+    padding-left: 1.3em;
+	}
+
+	.map {
+		transition: none;
+	}
+
+}
